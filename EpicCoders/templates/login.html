@@ -1,0 +1,17 @@
+{% extends 'header.html' %}
+
+    <title>{% block title %}سجل دخول{% endblock %}</title>
+
+{% block content %}
+    
+    <form action="", method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.username.label() }}
+        {{ form.username() }}
+        {{ form.password.label() }}
+        {{ form.password() }}
+        {{ form.submit_button.label() }}
+        {{ form.submit_button() }}
+    </form>
+
+{% endblock %}

@@ -1,9 +1,3 @@
-/*
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
 
 /* CSS Document */
 
@@ -45,8 +39,11 @@ a, a:hover, a:active{ outline:0px !important}
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  src: url('../homefonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../homefonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),
+  url('..//homefonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),
+  url('..//homefonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),
+  url('..//homefonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -97,7 +94,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../../images/homeimges/pw_maze_black_2X.png) left top repeat;
 	padding:280px 0;
 }
 .logo{
@@ -280,13 +277,13 @@ color: #fff;
 }
 .featured-box-col2{ overflow:hidden;}
 .featured-box.magic{
-	background:url(../img/magic.png) left top no-repeat;
+	background:url(../../images/homeimges/magic.png) left top no-repeat;
 }
 .featured-box.packaged{
-	background:url(../img/packaged.png) left top no-repeat;
+	background:url(../../images/homeimges/packaged.png) left top no-repeat;
 }
 .featured-box.seo{
-	background:url(../img/seo.png) left top no-repeat;
+	background:url(../../images/homeimges/seo.png) left top no-repeat;
 }
 .Learn-More{
 	display:inline-block;
@@ -401,7 +398,7 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/section-bg1.jpg) center center no-repeat;
+	background:url(../../images/homeimges/section-bg1.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
@@ -591,7 +588,7 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/section-bg2.jpg) top center no-repeat;
+	background:url(../../images/homeimges/section-bg2.jpg) top center no-repeat;
 	background-size:cover;
 	padding:60px 0 10px;
 	text-align:center;
@@ -614,7 +611,7 @@ border: 2px solid #fff;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	background:url(../../images/homeimges/bg-map.png) left 190px no-repeat;
 }
 .contact-info-box{
 	font-size:15px;
@@ -772,7 +769,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../../images/homeimges/pw_maze_black_2X.png) left top repeat;
 	padding:35px 0 35px;
 }
 .footer-logo{
